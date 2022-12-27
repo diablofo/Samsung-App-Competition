@@ -46,6 +46,12 @@ header > .container > p{
     margin: 25px;
 }
 
+header > div > .container{
+    display: flex;
+    justify-content: center;
+}
+
+
 main{
     width: 100%;
     height: 600px;
@@ -53,4 +59,16 @@ main{
     margin: 0;
     border: 0;
     padding: 0;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+footer > img{
+    width: 75%;
 }
