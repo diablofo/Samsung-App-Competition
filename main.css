@@ -65,7 +65,7 @@ main{
 
 main > .container{
     width: inherit;
-    height: 150px;
+    height: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,7 +78,7 @@ main > .container{
 
 main > .container> a{
     color: var(--body-color);
-    font-size: 80px;
+    font-size: 50px;
     text-decoration: none;
     text-align: center;
 }
@@ -94,8 +94,13 @@ footer > img{
     width: fit-content;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
     main > .container {
       width: 50%;
+        height: 150px;
+    }
+
+    main > .container > a{
+        font-size: 75px;
     }
   }
