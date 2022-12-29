@@ -83,6 +83,7 @@ main > .container> a{
     text-align: center;
 }
 
+
 footer{
     display: flex;
     justify-content: left;
@@ -93,6 +94,7 @@ footer{
 footer > img{
     width: fit-content;
 }
+
 
 @media only screen and (min-width: 600px) {
     main > .container {
