@@ -7,6 +7,31 @@
     --logo-src: url(images/school_logo.png);
 }
 
+        /* scrollbar styles */
+        
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    display: none   ;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--body-color); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+
 /*shortcut css classes*/
 .bodycolor-txt  {color: var(--body-color);}
 .bodycolor-bg   {background-color: var(--body-color);}
@@ -97,8 +122,14 @@ footer > img{
 
 
 @media only screen and (min-width: 600px) {
+
+
+    ::-webkit-scrollbar {
+        display: block;
+      }
+
     main > .container {
-      width: 50%;
+        width: 50%;
         height: 150px;
     }
 
