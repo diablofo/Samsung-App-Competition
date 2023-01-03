@@ -170,3 +170,7 @@ main > .container > button{
 .input-login{
     margin-top: 300px;
 }
+
+.input-login > input{
+    width: 10px;
+}
