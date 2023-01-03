@@ -5,6 +5,8 @@
     --secondary-color: #0b2972;
     --text-color: #000000; 
     --logo-src: url(images/school_logo.png);
+    /*--logo-box-shadow: box-shadow: 0px 10px var(--secondary-color); opacity: 30%; ;*/
+    
 }
 
         /* scrollbar styles */
@@ -149,3 +151,21 @@ main > .container> a{
         display: none;
     }
   }
+
+
+
+/*LOGIN.HTML*/
+.container-login{
+    text-align: center;
+    margin-top: 25%;
+
+}
+.container-login > img{
+    box-shadow: 0px 10px 5px 8px var(--secondary-color);
+    border-radius: 25px;
+    width: 40%;
+}
+
+.input-login{
+    margin-top: 300px;
+}
