@@ -132,25 +132,6 @@ main > .container > button{
     height: 100%;
 }
 
-            /* LOGIN.HTML styles */
-.container-login{
-    text-align: center;
-}
-
-.container-login > img{
-    box-shadow: 0px 10px 5px 8px var(--secondary-color);
-    border-radius: 25px;
-    width: 40%;
-}
-
-.input-login{
-    margin-top: 300px;
-}
-
-.input-login > input{
-    width: 10px;
-}
-
 @media only screen and (min-width: 600px) {
 
 
@@ -172,17 +153,13 @@ main > .container > button{
     }
   }
 
+            /* LOGIN.HTML styles */
+
+/*This is for  graphic at the top*/
 .shape-container{
     position: relative;
     text-align: center;
     z-index: -1;
-}
-.container-login > img{
-    position: relative;
-    box-shadow: 0px 10px 5px 8px var(--secondary-color);
-    border-radius: 25px;
-    width: 40%;
-    background-image: var(--login-background-gradient);
 }
 
 .shape-1 > .shape{
@@ -226,6 +203,35 @@ main > .container > button{
     -ms-transform: scaleX(-1);
     transform: scaleX(-1);
 }
+
+
+.container-login{
+    text-align: center;
+}
+
+.container-login > img{
+    box-shadow: 0px 10px 5px 8px var(--secondary-color);
+    border-radius: 25px;
+    width: 40%;
+}
+
+.input-login{
+    margin-top: 300px;
+}
+
+.input-login > input{
+    width: 10px;
+}
+
+.container-login > img{
+    position: relative;
+    box-shadow: 0px 10px 5px 8px var(--secondary-color);
+    border-radius: 25px;
+    width: 40%;
+    background-image: var(--login-background-gradient);
+}
+
+
 
 input{
     width: 75%;
