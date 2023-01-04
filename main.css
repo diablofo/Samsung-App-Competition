@@ -175,28 +175,59 @@ main > .container> a{
   }
 
 .shape-container{
+    position: relative;
     text-align: center;
     margin-top: 25%;
+    z-index: -1;
 }
 .container-login > img{
+    position: relative;
     box-shadow: 0px 10px 5px 8px var(--secondary-color);
     border-radius: 25px;
     width: 40%;
     background-image: var(--login-background-gradient);
-
 }
 
-.shape{
+.shape-1 > .shape{
     position: absolute;
     background-color: var(--secondary-color);
     opacity: 50%;
-    clip-path: polygon(0 0, 100% 0, 100% 10%, 0 25%);
-    height: 500px;
-    width: 55%;
+    clip-path: polygon(0 20%, 0 0, 100% 0);
+    height: 1000px;
+    width: 100%;
     border: 0;
     padding: 0;
     margin: 0;
     top: 0;
+}
+
+.shape-container > .shape-1 :nth-child(2){
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.shape-2 > .shape{
+    position: absolute;
+    background-color: var(--secondary-color);
+    opacity: 50%;
+    clip-path: polygon(0 20%, 0 0, 100% 0);
+    height: 500px;
+    width: 100%;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+.shape-container > .shape-2 :nth-child(2){
+    -webkit-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 input{
