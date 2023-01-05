@@ -1,4 +1,6 @@
 /* variables for the app colors*/
+
+
 :root{
     --body-color: #ffffff;
     --primary-color: #768fa2;
@@ -46,7 +48,13 @@
 .default-txt    {color: var(--text-color);}
 .logo-bg        {background-image: var(--logo-src);}
 
-            /*universal styles*/
+  
+/*universal styles*/
+
+html{
+    height: 100%;
+}
+
 body{
     padding: 0;
     border: 0;
