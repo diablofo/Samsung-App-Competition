@@ -1,20 +1,4 @@
-/* variables for the app colors*/
-
-
-:root{
-    --body-color: #ffffff;
-    --primary-color: #768fa2;
-    --secondary-color: #0b2972;
-    --text-color: #000000; 
-    --logo-src: url(images/school_logo.png);
-    /*--logo-box-shadow: box-shadow: 0px 10px var(--secondary-color); opacity: 30%; ;*/
-    --login-background-gradient: linear-gradient(to bottom, rgb(83, 201, 255), rgb(195, 236, 241));
-    
-    
-}
-
-        /* scrollbar styles */
-        
+       
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
