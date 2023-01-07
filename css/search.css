@@ -22,16 +22,19 @@
 #myUL li a {
     border: 1px solid #ddd;
     margin-top: -1px; /* Prevent double borders */
-    background-color: #f6f6f6;
+    background-color: var(--body-color);
     padding: 12px;
     text-decoration: none;
     font-size: 18px;
     color: black;
-    display: block
+    display: block;
+    transition: 2s;
+
 }
 
-#myUL li a:hover:not(.header) {
-    background-color: #eee;
+#myUL li a:active:not(.header) {
+    background-color: var(--primary-color);
+    transition-timing-function: cubic-bezier(0.1,0.1,0.8,0.8);
 }
 #s-index-title{
     color: var(--primary-color)

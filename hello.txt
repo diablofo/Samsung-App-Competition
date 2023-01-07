@@ -1,3 +1,0 @@
-this is a test
-hi
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin placerat.
