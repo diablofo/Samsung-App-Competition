@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+}
+.container > .left, .right{
+    height: 300px;
+}
+.left{
+    background-color: red;
+    width: 50%;
+    float: left;
+}
+.right{
+    background-color: blue;
+    width: 50%;
+    float: right;
+}
