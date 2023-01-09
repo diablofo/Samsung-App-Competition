@@ -22,6 +22,7 @@
     float: left;
     border-radius: 30px;
     height: 298px;
+    z-index: 0;
 }
 .t-text{
     color: blue;
