@@ -163,7 +163,14 @@ nav > .button-container > a {
         display: none;
     }
     
-    
+    .fa-bars{
+        visibility: visible;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: var(--body-color);
+        color: var(--secondary-color);
+    }
 }
 .nav-footer{
     position: fixed;
