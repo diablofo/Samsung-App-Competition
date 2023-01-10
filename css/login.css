@@ -1,3 +1,6 @@
+body{
+    background-color: var(--color-set-one)
+}
 
 .flex-container {
     display: flex;
@@ -7,7 +10,7 @@
     }
 
 .flex-container > .t-column {
-    background-color: #f1f1f1;
+    background-color: white;
     width: 95%;
     height: 300px;
     margin: 10px;
@@ -17,18 +20,24 @@
     border-radius: 30px;
     }
     
-.flex-container > .t-column > #teacher-one > img{
-    background-color: grey;
+#teacher-one > img{
+    background-color: var(--color-set-two);
     float: left;
     border-radius: 30px;
     height: 298px;
+    width: 300px;
     z-index: 0;
 }
 .t-text{
-    color: blue;
+    color: var(--primary-color);
     float: right;
     margin-right: 5%;
     font-size: 20px;
+}
+
+.flex-container > .t-column:hover{
+    opacity: 75%;
+
 }
 
 @media only screen and (max-width: 800px){
@@ -38,7 +47,8 @@
     }
     .flex-container > .t-column > #teacher-one > img{
         height: 200px;
+        width: 40%;
     }
-
-
+    
 }
+
