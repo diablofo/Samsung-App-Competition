@@ -5,26 +5,30 @@
         <link rel="stylesheet" href="../css/footer.css">
         <link rel="stylesheet" href="../css/search.css">
         <link rel="stylesheet" href="../css/root.css">
+        <link rel="stylesheet" href="../css/nav.css">
+        <link rel="stylesheet" href="../css/main.css">
     </head>
         <body>
-            <nav>
-                <div class="container">
-                <img src="images/favicon-32x32.png" alt="logo">
+            <script src="https://kit.fontawesome.com/f30930d827.js" crossorigin="anonymous"></script>
+    <nav>
+        <div class="container">
+        <img src="../images/favicon-32x32.png" alt="logo">
+        </div>
+            <p>JATC Attendance</p>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa-solid fa-bars"></i><p class="menu">Menu</p></button>
+                <div class="dropdown-content">
+                  <a href="../index.html">Home</a>
+                  <a href="login.html">login</a>
+                  <a href="search.html">Search</a>
+                  <a href="teacher-list.html">Admin Example</a>
                 </div>
-                    <p>JATC Attendance</p>
-                    <div class="dropdown">
-                        <button class="dropbtn"><i class="fa-solid fa-bars"></i><p class="menu">Menu</p></button>
-                        <div class="dropdown-content">
-                          <a href="../index.html">Home</a>
-                          <a href="login.html">login</a>
-                          <a href="search.html">Search</a>
-                          <a href="teacher-list.html">Admin Example</a>
-                        </div>
-                </div>
-            </nav>
-        <script src="https://kit.fontawesome.com/f30930d827.js" crossorigin="anonymous"></script>
+        </div>
+    </nav>
+        
+    <div class="input-container">
         <h2 id ="s-index-title">Student Index</h2>
-
+    
         <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
 
         <ul id="myUL">
@@ -92,7 +96,7 @@
             <li><a href="#">Owen Wilson</a></li>
             <li><a href="#">Ryan Renolds</a></li>
         </ul>
-
+    </div>
         <script>
         function myFunction() {
             var input, filter, ul, li, a, i, txtValue;
