@@ -171,6 +171,8 @@ nav > .button-container > a {
         background-color: var(--body-color);
         color: var(--secondary-color);
     }
+
+   
 }
 .nav-footer{
     position: fixed;
@@ -264,6 +266,19 @@ main > .container > button{
     .nav-footer{
         display: none;
     }
+
+    #fname{
+        height: 70px;
+        font-size: 60px;
+    }
+
+    #lname{
+        height: 70px;
+        font-size: 60px;
+    }
+    .container-login > img{
+        width: 100px;
+    }
   }
 
             /* LOGIN.HTML styles */
@@ -320,35 +335,37 @@ main > .container > button{
 
 .container-login{
     text-align: center;
+    height: 100%;
 }
 
-.container-login > img{
-    box-shadow: 0px 10px 5px 8px var(--secondary-color);
-    border-radius: 25px;
-    width: 40%;
+.container-login :nth-child(2){
+    height: 200px;
 }
 
 .input-login{
-    margin-top: 300px;
+    width: 100%;
 }
 
-.input-login > input{
-    width: 10px;
+.container-login > div{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.container-login > img{
+.container-login > .container > img{
     position: relative;
-    box-shadow: 0px 10px 5px 8px var(--secondary-color);
+    box-shadow: 0px 3px 5px 2px var(--secondary-color);
     border-radius: 25px;
-    width: 40%;
-    background-image: var(--login-background-gradient);
+    width: 150px;
+    margin-top: 0;
+   
 }
-
-
 
 input{
     width: 75%;
-    height: 100px;
+    height: 60px;
     font-size: 10vw;
     font-family: sans-serif;
     font-weight: 100;
@@ -356,16 +373,21 @@ input{
     border: 5px solid grey;
 }
 
+input:focus{
+    border: 5px solid black;
+}
+
 #test{
     background-color: var(--secondary-color);
+    color: var(--body-color);
     border-radius: 30px;
     border: none;
     height: 75px;
-    font-size: 5vw;;
+    font-size: 60px;;
     
 }
 
-#test:active{
+#test:focus{
     background-color: var(--primary-color);
 }
 
