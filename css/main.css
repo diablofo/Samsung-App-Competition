@@ -362,6 +362,15 @@ main > .container > button{
    
 }
 
+.input-login > form >.container{
+    width: 100%;
+    height: 100%;
+    position: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 input{
     width: 75%;
     height: 60px;
@@ -376,14 +385,20 @@ input:focus{
     border: 5px solid black;
 }
 
+
 #test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--secondary-color);
     color: var(--body-color);
-    border-radius: 30px;
+    border-radius: 5px;
     border: none;
     height: 75px;
     font-size: 60px;;
-    
+    width: 75%;
+    font-weight: 100;
+    text-decoration: none;
 }
 
 #test:focus{
